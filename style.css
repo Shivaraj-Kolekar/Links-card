@@ -18,7 +18,7 @@ a {
   border-radius: 8px;
   font-weight: bold;
   margin: 8px;
-  width: 275px;
+  width: 280px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -90,4 +90,13 @@ section {
   justify-content: center;
   justify-items: center;
   align-items: center;
+}
+@media screen and (max-width: 400px) {
+  .social-links {
+    padding: 4px;
+    width: 306px;
+  }
+  a {
+    width: 240px;
+  }
 }
